@@ -1,7 +1,6 @@
 import Container from 'react-bootstrap/Container';
 
 const  ItemListContainer= ({greeting}) => {
-    //prop greater
     //en app.js debajo del navbar
     return (
         <Container>
