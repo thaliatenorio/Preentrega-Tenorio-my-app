@@ -21,6 +21,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "homepage": "https://thaliatenorio.github.io/Preentrega-Tenorio-my-app/",
   "eslintConfig": {
     "extends": [
       "react-app",

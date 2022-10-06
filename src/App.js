@@ -13,7 +13,7 @@ import ItemDetailContainer from './Components/ItemDetailContainer';
 
 function App() {
     return (
-      <BrowserRouter>
+      <BrowserRouter basename='/Preentrega-Tenorio-my-app'>
         <NavBar />
         <Routes>
           <Route path='/' element={<ItemListContainer greeting={'Tienda Online'} />} />
