@@ -1,0 +1,7 @@
+.itemList {
+    margin-top: 30px; 
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    justify-content: space-between;
+  }
