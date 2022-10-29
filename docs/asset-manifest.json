@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Preentrega-Tenorio-my-app/static/css/main.783076e4.css",
-    "main.js": "/Preentrega-Tenorio-my-app/static/js/main.f9c827f7.js",
+    "main.css": "/Preentrega-Tenorio-my-app/static/css/main.a6e04e41.css",
+    "main.js": "/Preentrega-Tenorio-my-app/static/js/main.cd284782.js",
     "static/js/787.28cb0dcd.chunk.js": "/Preentrega-Tenorio-my-app/static/js/787.28cb0dcd.chunk.js",
     "index.html": "/Preentrega-Tenorio-my-app/index.html",
-    "main.783076e4.css.map": "/Preentrega-Tenorio-my-app/static/css/main.783076e4.css.map",
-    "main.f9c827f7.js.map": "/Preentrega-Tenorio-my-app/static/js/main.f9c827f7.js.map",
+    "main.a6e04e41.css.map": "/Preentrega-Tenorio-my-app/static/css/main.a6e04e41.css.map",
+    "main.cd284782.js.map": "/Preentrega-Tenorio-my-app/static/js/main.cd284782.js.map",
     "787.28cb0dcd.chunk.js.map": "/Preentrega-Tenorio-my-app/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.783076e4.css",
-    "static/js/main.f9c827f7.js"
+    "static/css/main.a6e04e41.css",
+    "static/js/main.cd284782.js"
   ]
 }

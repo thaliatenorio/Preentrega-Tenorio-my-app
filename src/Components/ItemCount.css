@@ -1,0 +1,18 @@
+.itemCountContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    
+  }
+  
+  .itemCountContainer div {
+    display: flex;
+    margin-top: 1rem;
+  }
+
+  .itemCountContainer div button{
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+  

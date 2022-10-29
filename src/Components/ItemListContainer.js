@@ -3,6 +3,7 @@ import { obtenerProductos, traerProductosByCategory } from '../datos/products';
 import ItemList from './ItemList';
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
+import { getAllProducts, getProductsByCategory } from '../utils/products';
 
 const ItemListContainer = ({ greeting }) => {
   const { categoryId } = useParams();
@@ -10,15 +11,27 @@ const ItemListContainer = ({ greeting }) => {
 
   useEffect(() => {
     if (categoryId) {
-      traerProductosByCategory(categoryId)
+      getProductsByCategory(categoryId)
         .then((data) => setProducts(data))
         .catch((error) => console.warn(error))
     } else {
-      obtenerProductos()
+      getAllProducts()
         .then((data) => setProducts(data))
         .catch((error) => console.warn(error))
     }
   }, [categoryId])
+  
+  //useEffect(() => {
+  //  if (categoryId) {
+  //    traerProductosByCategory(categoryId)
+  //      .then((data) => setProducts(data))
+  //      .catch((error) => console.warn(error))
+  //  } else {
+  //    obtenerProductos()
+  //      .then((data) => setProducts(data))
+  //      .catch((error) => console.warn(error))
+  //  }
+  //}, [categoryId])
 
   return (
     <Container>
